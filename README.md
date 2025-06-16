@@ -1,46 +1,46 @@
 # SQL_PRACTICE
 
 SQL Practice Questions
-1. CREATE & INSERT
+1. CREATE & INSERT:
 Create a table employees with columns: emp_id, emp_name, salary, department, city.
 Insert 5 rows into the employees table.
 
-2. SELECT & WHERE
+2. SELECT & WHERE:
 Write a query to display all records from the students table.
 Select all students who live in 'Delhi'.
 Select students whose marks are greater than 80 and age is less than 22.
 
-3. DISTINCT & LIKE
+3. DISTINCT & LIKE:
 Get a list of all unique cities from the students table.
 Show names that start with the letter 'A'.
 Find students whose names end with 'e'.
 
-4. ORDER BY, LIMIT, TOP
+4. ORDER BY, LIMIT, TOP:
 List all students sorted by marks in descending order.
 Get the top 3 highest scoring students.
 Get the lowest 2 scorers.
 
-5. AND, OR, NOT
+5. AND, OR, NOT:
 Find students from ‘vadodara ’ and marks above 85.
 Find students from ‘surat’ or ‘kutch’.
 Show students not from ‘Delhi’.
 
-6. IN & BETWEEN
+6. IN & BETWEEN:
 Find students from cities in (‘surat’, ‘kutch’, ‘bilimora’).
 Get students whose marks are between 70 and 90.
 
-7. UPDATE
+7. UPDATE:
 Update the city of student with ID = 3 to ‘Pune’.
 Increase marks by 5 for students who scored less than 70.
 
-8. ALTER
+8. ALTER:
 Add a new column email to the students table.
 Change the data type of marks to FLOAT.
 
-9. DELETE
+9. DELETE:
 Delete all students from the city ‘vadodara’.
 Delete students who scored less than 60.
 
-10. TRUNCATE & DROP
+10. TRUNCATE & DROP:
 Write a query to remove all rows from students but keep the table.
 Write a query to remove the entire courses table.
