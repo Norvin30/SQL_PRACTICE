@@ -1,0 +1,49 @@
+1) Create a table students with appropriate data types.
+
+2) Insert at least 10 records into the students table.
+
+What data types would you use for:
+Name : 
+Marks: 
+Admission Date 
+Status (Active/Inactive) 
+
+3) SELECT, DISTINCT, WHERE
+Select all student records.
+Display only distinct cities from the table.
+Show students who are from 'Delhi'.
+Show students with marks greater than 80.
+Show students whose status is 'Active'.
+
+4) LIKE, ORDER BY, LIMIT, TOP
+Show students whose names start with 'A'.
+List all students ordered by marks in descending order.
+Display top 3 scorers.
+Show students whose name ends with 'a'.
+Show students whose name contains 'oh'.
+
+5) AND, OR, NOT, IN, BETWEEN
+Show students with marks between 70 and 90.
+Show students from ‘Delhi’ and with marks > 80.
+Show students who are either from ‘Mumbai’ or ‘Chennai’.
+Show students not from ‘Delhi’.
+Show students whose course is in (‘BCA’, ‘BCom’).
+
+6) UPDATE
+Update marks to 95 where student name is ‘Rohit’.
+Update status to 'Dropped' for students with marks < 50.
+Update course to 'BBA' for students from 'Kolkata'.
+
+7) DELETE
+Delete the record of a student who has dropped.
+Delete students who have marks below 60.
+
+8) ALTER
+Add a new column email to the students table.
+Change the data type of marks to FLOAT.
+Rename the column status to admission_status.
+
+9) TRUNCATE / DROP
+Truncate the students table. (⚠️ Clears all data but keeps table)
+
+Drop the students table completely.
