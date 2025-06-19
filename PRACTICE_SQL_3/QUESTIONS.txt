@@ -1,0 +1,59 @@
+1) CREATE A TABLE PRODUCT with these columns: 
+
+ product_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    category VARCHAR(30),
+    price DECIMAL(7,2),
+    stock INT,
+    supplier VARCHAR(50)
+
+2) INSERT
+ 
+INSERT a new product 'Water Bottle', 'Kitchenware', 250.00, 50, 'Kitchen Plus'.
+INSERT a new product 'Mouse', 'Electronics', 599.00, 30, 'Mobile Hub'.
+INSERT a new product 'Bookshelf', 'Furniture', 8500.00, 3, 'Wood Works'.
+
+3) UPDATE : 
+
+UPDATE the price of all 'Electronics' items by increasing it by 5%.
+UPDATE stock to 100 for all 'Stationery' items.
+UPDATE the supplier name from 'Tech World' to 'Tech Bazaar'.
+
+4) DELETE
+
+DELETE all products with stock less than 5.
+DELETE all products in the 'Furniture' category with price below 6000.
+DELETE the product named 'Notebook'.
+
+5)  SELECT, WHERE, AND, OR, IN, NOT, BETWEEN
+
+SELECT all products with a price BETWEEN ₹5,000 and ₹20,000.
+SELECT products WHERE stock is greater than 20 AND category is 'Electronics'.
+SELECT products WHERE category is 'Furniture' OR supplier is 'Office Supply Co.'.
+SELECT products NOT IN the categories 'Electronics', 'Furniture'.
+SELECT products WHERE name IN ('Laptop', 'Printer', 'Pen Set').
+SELECT products with stock BETWEEN 10 and 100.
+
+6) ORDER BY, LIMIT
+
+SELECT the top 3 most expensive products (using ORDER BY + LIMIT).
+SELECT the bottom 3 cheapest products.
+SELECT products ordered by stock in descending order.
+
+7) LIKE Pattern Matching
+
+SELECT all products whose name starts with 'P'.
+SELECT all products whose name contains 'top'.
+SELECT products whose supplier name ends with 'Co.'.
+
+8) ALTER TABLE (Schema Modification)
+
+ALTER the supplier column to VARCHAR(100).
+ADD a column rating DECIMAL(2,1) to the products table.
+RENAME the column stock to quantity_available.
+
+9) TRUNCATE & DROP
+
+TRUNCATE the products table but retain its structure.
+DROP the column category from the products table.
+DROP the products table entirely.
