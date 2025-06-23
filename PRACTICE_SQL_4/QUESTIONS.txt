@@ -1,0 +1,81 @@
+CREATE Question:
+1) Write a SQL statement to create an Employees table with the following columns:
+EmployeeID (Primary Key, Integer), FirstName (String), LastName (String), Age (Integer),
+Department (String), Salary (Decimal), HireDate (Date), and Active (Boolean).
+
+2) INSERT Question:
+Q: Write a SQL query to insert a new employee into the Employees table with the following details:
+
+3) UPDATE
+Update the salary of employee with EmployeeID = 2.
+Increase salary by 10% for employees in the "HR" department.
+Change department of "Charlie" to "Marketing".
+Set Active = false for employees older than 40.
+
+4) ALTER
+Add a new column Email to the Employees table.
+Modify the data type of Salary to FLOAT.
+Rename column LastName to Surname.
+
+5) DELETE
+Delete employees in the "Finance" department.
+Delete employee with EmployeeID = 5.
+What happens if you delete all employees with Active = false?
+Delete all employees hired before 2018.
+
+6) DROP
+Drop the Employees table.
+
+
+7) SELECT
+Select all workers' names and salaries.
+Select only FirstName, LastName from the table.
+Select all columns where Active = true.
+Select workers whose salary is more than 60000.
+
+8) DISTINCT
+Select distinct departments.
+Select distinct values of Active.
+How many distinct hire years are there?
+Count distinct ages.
+
+9) WHERE
+Select workers where Age > 30.
+Select workers from the "IT" department.
+Select workers hired after 2020.
+Select workers whose salary is equal to 70000.
+
+10) LIKE
+Find workers with FirstName starting with 'A'.
+Find workers whose LastName ends with 'son'.
+Find names that contain 'ar'.
+Use LIKE to find any name with 5 characters.
+
+11) ORDER BY
+Order workers by Salary descending.
+Order by HireDate ascending.
+Order by Department then Salary.
+Order workers by Age then FirstName.
+
+12) LIMIT / TOP
+Select top 3 highest paid workers.
+Limit results to 2 youngest workers.
+Get top 5 workers sorted by hire date.
+Limit query results to 1 record only.
+
+13) AND / OR / NOT
+Select workers where Department = 'IT' AND Salary > 70000.
+Select workers where Department = 'HR' OR Age < 30.
+Select workers NOT in the 'Finance' department.
+
+14) IN
+Select workers in departments ('IT', 'HR').
+Select workers with salaries in (50000, 52000, 70000).
+Select workers whose Age is in (25, 30, 34).
+Find workers with EmployeeID in (1, 3, 5).
+
+15) BETWEEN
+Select workers aged between 30 and 40.
+Select workers hired between '2018-01-01' and '2020-12-31'.
+Select workers with salaries between 60000 and 70000.
+Select workers with EmployeeID between 2 and 5.
