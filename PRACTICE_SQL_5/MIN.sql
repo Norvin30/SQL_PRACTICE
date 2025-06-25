@@ -1,0 +1,1 @@
+select min(index) from people;

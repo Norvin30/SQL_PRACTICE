@@ -1,0 +1,1 @@
+select round(avg(index),2) from people;

@@ -1,0 +1,1 @@
+select avg(index) from people;
