@@ -1,0 +1,72 @@
+CREATE, INSERT, UPDATE, ALTER, DELETE, DROP, TRUNCATE &
+DATA TYPES in SQL 
+SELECT, DISTINCT, WHERE, LIKE, ORDER BY, LIMIT, TOP, AND,
+OR, NOT, IN, BETWEEN 
+SUM, MAX, MIN, COUNT, AVG , GROUP BY, HAVING
+
+
+
+1) CREATE
+Create a table students with fields: student_id, name, age, gender, department, marks, and city.
+
+2) INSERT
+Insert a new student record:
+
+3) UPDATE
+Increase marks by 5 for all students in the Computer Science department.
+
+4) ALTER
+Add a new column email VARCHAR(100) to the students table.
+
+5) DELETE
+Delete all students who scored less than 60 marks.
+
+6) SELECT
+Retrieve all records from the students table.
+
+7) DISTINCT
+List all unique cities where students live.
+
+8) WHERE
+Find all female students from Delhi.
+
+9) LIKE
+Find students whose names start with 'A'.
+
+10) ORDER BY
+Display students sorted by marks in descending order.
+
+11) LIMIT / TOP
+Show the top 3 students with the highest marks.
+
+
+12) AND / OR / NOT
+Find students who:
+Are from Delhi AND scored above 80.
+Are from Mumbai OR Chennai.
+Are NOT from the Physics department.
+
+13) IN
+Find students whose department is IN ('Mathematics', 'Physics').
+
+14) BETWEEN
+Find students whose age is between 21 and 23.
+
+15) SUM, MAX, MIN, COUNT, AVG
+Find:
+Total marks of all students.
+Maximum, Minimum, and Average marks.
+Total number of students.
+
+16) GROUP BY
+Count number of students in each department.
+
+17) HAVING
+List departments where average marks > 80.
+
+18) TRUNCATE
+Truncate the students table to remove all data while keeping its structure.
+
+19) DROP
+Drop the entire students table.
+
