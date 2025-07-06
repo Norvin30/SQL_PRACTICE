@@ -1,0 +1,67 @@
+CREATE, INSERT, UPDATE, ALTER, DELETE
+SELECT, DISTINCT, WHERE, LIKE, ORDER BY, LIMIT, TOP,
+AND, OR, NOT, IN, BETWEEN
+SUM, MAX, MIN, COUNT, AVG, GROUP BY, HAVING
+
+
+1. CREATE
+Create a products table with appropriate fields for a shop inventory.
+
+2. INSERT
+Insert products in table:
+
+3. UPDATE
+Increase price of all Electronics items by 10%.
+
+4. ALTER
+Add a new column warranty_years INT to the products table.
+
+5. DELETE
+Delete all products where stock is less than 10.
+
+6. SELECT
+Select all columns from the products table.
+
+7. DISTINCT
+Show all distinct categories available in the product list.
+
+8. WHERE
+Find all products priced below 1000.
+
+9. LIKE
+Find products whose supplier names start with "Furni".
+
+10. ORDER BY
+Show all products ordered by price in descending order.
+
+11. LIMIT 
+Show top 5 most expensive products:
+
+
+12. AND
+Find all Furniture products AND priced above 4000.
+
+13. OR
+Find products that are from category Stationery OR price below 100.
+
+14. NOT
+Show all products that are not from the Electronics category.
+
+15. IN
+Find products that belong to categories Furniture, Stationery.
+
+16. BETWEEN
+Show products priced between 1000 and 10000.
+
+17. SUM/MAX/MIN/COUNT/AVG
+Show total stock available for all products.
+Show the product with the highest price.
+Show the product with the lowest price.
+Count how many products are available in the table.
+Show the average price of all products.
+
+18. GROUP BY
+Show total stock grouped by category.
+
+19. HAVING
+Show categories where the average price of products is greater than 10000.
