@@ -1,0 +1,9 @@
+QUESTIONS
+
+1. INNER JOIN – Customers who placed orders.
+
+2. LEFT JOIN – All customers with or without orders.
+
+3. RIGHT JOIN – All orders with or without matching customers.
+
+4. FULL OUTER JOIN – All customers and all orders (even unmatched)
